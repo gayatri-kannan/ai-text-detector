@@ -79,13 +79,9 @@ Standard random splits would leak information — matched pairs could end up acr
 
 ```
 ai-text-detector/
-├── notebook/
-│   └── AI_Text_Detector.ipynb      # Full pipeline notebook
-├── data/
-│   └── README.md                   # Dataset sources and links
-├── results/
-│   └── confusion_matrices.png      # Model comparison visuals
-└── README.md
+  └── AI_Text_Detector.ipynb      # Full pipeline notebook
+  └── Data.txt                    # Dataset sources and links    
+  └── README.md                   #Compete Sketch on pipeliine
 ```
 
 ---
