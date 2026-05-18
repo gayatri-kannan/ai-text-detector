@@ -1,0 +1,17 @@
+# Dataset Information
+
+## Primary Dataset
+- **Name:** Human vs Machine Text Dataset
+- **Source:** Nature Scientific Reports
+- **Link:** https://www.nature.com/articles/s41598-024-55686-2
+- **Size:** 20,000 labelled samples (balanced classes)
+
+## Custom Hybrid Dataset
+- 1,934 human-written Wikipedia passages
+- 1,934 AI-generated rewrites on identical topics
+- Constructed specifically for this project to ensure style-based learning
+
+## How to reproduce
+1. Download the primary dataset from the link above
+2. Run the notebook from Section 2 to generate the custom dataset
+3. All splits are generated automatically via pair-aware splitting logic in the notebook
